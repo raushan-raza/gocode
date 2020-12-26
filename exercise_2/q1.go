@@ -6,10 +6,13 @@ import (
 
 func main() {
 
-	x := 8
+	a := (4 == 5)
+	b := (5 <= 2)
+	c := (15 >= 14)
+	d := (4 != 6)
+	e := (56 > 45)
+	f := (56 < 98)
 
-	fmt.Printf("%b\n", x)
-	fmt.Printf("%d\n", x)
-	fmt.Printf("%o\n", x)
+	fmt.Println(a, b, c, d, e, f)
 
 }
