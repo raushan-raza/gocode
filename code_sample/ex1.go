@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 
 	x := 42
-	y := "james"
+	y := "james and jones"
 	z := "true"
 
 	fmt.Println(x, y, z)
