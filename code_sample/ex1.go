@@ -4,9 +4,9 @@ import "fmt"
 
 func main() {
 
-	x := 42
+	x := 49
 	y := "james and jones"
-	z := "true"
+	z := "false"
 
 	fmt.Println(x, y, z)
 	fmt.Println(x)
