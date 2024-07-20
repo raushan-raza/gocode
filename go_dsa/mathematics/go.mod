@@ -1,3 +1,3 @@
-module go_dsa
+module mathematics
 
 go 1.22.5

@@ -1,4 +1,4 @@
-package fact
+package MyPackages
 
 import (
 	"fmt"

@@ -3,14 +3,14 @@ package main
 
 import (
 	"fmt"
-	fact "go_dsa/factorial"
+	"mathematics/MyPackages"
 )
 
 func main() {
 	var N int
 	fmt.Println("enter N")
 	fmt.Scan(&N)
-	trailing_zero := fact.Factorial(N)
+	trailing_zero := MyPackages.Factorial(N)
 
 	fmt.Printf("number of tariling zeros in factorial of %d = %d\n", N, trailing_zero)
 }

@@ -4,7 +4,7 @@ package main
 
 import (
 	"fmt"
-	fact "go_dsa/factorial"
+	"mathematics/MyPackages"
 	"os"
 )
 
@@ -19,7 +19,7 @@ func main() {
 	}
 
 	for i := 2; i <= n; i++ {
-		fact.Prime(i)
+		MyPackages.Prime(i)
 	}
 
 }
